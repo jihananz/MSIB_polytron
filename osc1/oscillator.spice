@@ -1,0 +1,12 @@
+** sch_path: /home/jihananz/project/osc/osc1/oscillator.sch
+**.subckt oscillator vdd out gnd
+*.iopin vdd
+*.iopin gnd
+*.opin out
+x1 vdd out net1 gnd inverter
+x2 vdd net1 net2 gnd inverter
+x3 vdd net2 out gnd inverter
+**.ends
+
+
+.end
