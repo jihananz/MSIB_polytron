@@ -1,0 +1,25 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1729440140
+<< checkpaint >>
+rect -1260 3293 4945 4600
+rect 6213 3293 11719 4223
+rect -1260 -1260 11719 3293
+use pmos_cs  x1
+timestamp 1729440135
+transform 1 0 254 0 1 1247
+box -254 -1247 3431 2093
+use pmos_out  x2
+timestamp 1729440139
+transform 1 0 7718 0 1 2371
+box -245 -2371 2741 592
+use nmosdp  x3
+timestamp 1729440136
+transform 1 0 4031 0 1 799
+box -346 -799 1523 798
+use nmoscs2  x4
+timestamp 1729440137
+transform 1 0 5783 0 1 801
+box -229 -801 1690 1232
+<< end >>

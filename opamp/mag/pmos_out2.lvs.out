@@ -1,0 +1,47 @@
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8         |Circuit 2: sky130_fd_pr__pfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_BHRSS5 in circuit pmos_out2 (0)(16 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_LA8JHL in circuit pmos_out2 (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_MA8JHN in circuit pmos_out2 (0)(4 instances)
+
+Class pmos_out2 (0):  Merged 19 parallel devices.
+Class pmos_out2 (1):  Merged 2 parallel devices.
+Subcircuit summary:
+Circuit 1: pmos_out2                       |Circuit 2: pmos_out2                       
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (24->5)            |sky130_fd_pr__pfet_01v8 (24->5)            
+Number of devices: 5                       |Number of devices: 5                       
+Number of nets: 6                          |Number of nets: 6                          
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: pmos_out2                       |Circuit 2: pmos_out2                       
+-------------------------------------------|-------------------------------------------
+VIP                                        |VIP                                        
+VIN                                        |VIN                                        
+D5                                         |D5                                         
+VDD                                        |VDD                                        
+OUT                                        |OUT                                        
+D8                                         |D8                                         
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes pmos_out2 and pmos_out2 are equivalent.
+
+Final result: Circuits match uniquely.
+.
